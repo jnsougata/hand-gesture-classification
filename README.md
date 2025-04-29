@@ -68,5 +68,5 @@ This model is trained on a limited dataset and may not perform well in all scena
 Moreover, the model's performance may vary based on factors such as lighting conditions, camera angles, and individual differences in hand gestures. Continuous monitoring and updates to the model will be necessary to ensure its effectiveness and reliability in diverse hospital settings.
 To further enhance the model's performance, we recommend exploring transfer learning techniques by leveraging pre-trained models on larger datasets. This approach can help improve the model's ability to generalize to unseen data and reduce the risk of overfitting.
 
-### ⛓️‍💥 Why the image-based dataset is not used?
+#### ⛓️‍💥 Reason for not using provided image-based dataset
 The provided 50x50 images are not used here in the model training because they are not suitable for deep learning applications. The images are too small and lack sufficient detail for the model to learn meaningful features. Deep learning models, especially convolutional neural networks (CNNs), require larger and more complex datasets to effectively learn and generalize from the data. Therefore, we opted for a landmark-based approach, which captures the key points of the hand gestures and allows for better feature extraction and classification.
