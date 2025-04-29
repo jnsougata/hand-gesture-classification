@@ -1,7 +1,7 @@
 # Hand Gesture Recognition for Enhanced Communication in Hospital Environments: A Deep Learning Approach
 -- - -
 ### 📌Abstract
-In this project, we present a deep learning-based approach for hand gesture recognition to enhance communication in hospital environments. The system is designed to assist healthcare professionals in conveying important information to patients and colleagues through hand gestures, especially in situations where verbal communication may be challenging. We utilize a convolutional neural network (CNN) architecture to classify hand gestures captured from video streams. The model is trained on a diverse dataset of hand gestures, ensuring robustness and accuracy in real-world scenarios. Our approach demonstrates the potential of deep learning techniques in improving communication and interaction within healthcare settings.
+In this project, we present a deep learning-based approach for hand gesture recognition to enhance communication in hospital environments. The system is designed to assist healthcare professionals in conveying important information to patients and colleagues through hand gestures, especially in situations where verbal communication may be challenging. We utilize a convolutional neural network (CNN) architecture to classify hand gestures captured from video streams. Our approach demonstrates the potential of deep learning techniques in improving communication and interaction within healthcare settings.
 
 ### 📋Table of Contents
 - [Hand Gesture Recognition for Enhanced Communication in Hospital Environments: A Deep Learning Approach](#hand-gesture-recognition-for-enhanced-communication-in-hospital-environments-a-deep-learning-approach)
