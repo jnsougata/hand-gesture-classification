@@ -132,13 +132,13 @@ if __name__ == "__main__":
             all_predicted.extend(predicted.cpu().numpy())
             all_labels.extend(labels.cpu().numpy())
 
-        print(f"\nTest Accuracy (Improved Model): {(100 * correct / total):.2f}%")
+        print(f"\nTest Accuracy: {(100 * correct / total):.2f}%")
 
         import matplotlib.pyplot as plt
         import seaborn as sns
         from sklearn.metrics import classification_report, confusion_matrix
 
-        print("\nClassification Report (Improved Model):")
+        print("\nClassification Report:")
         print(
             classification_report(
                 all_labels, all_predicted, target_names=label_encoder.classes_
